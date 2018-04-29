@@ -14,6 +14,7 @@ React is a declarative, efficient, and flexible JavaScript library for building 
 ## What are we going to build?
 
 A react weather app
+[Imgur](https://i.imgur.com/tteDZMy.png)
 
 ## Before we start
 
@@ -27,7 +28,7 @@ Go to https://github.com/facebook/create-react-app and run the three command lin
 
 #### Add styling for the app
 
-Once you have your app running, replace the css in src/App.css with this https://gist.github.com/saussayjesica/cf1726fdaa6157b4d36b1011fb9528d3.
+Once you have your app running, replace the css in src/App.css with this https://github.com/saussayjesica/react-workshop/blob/master/src/App.css
 
 #### Add custom font
 
