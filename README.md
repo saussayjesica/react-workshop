@@ -45,7 +45,7 @@ Add the following to the body styling in index.css
 
 JSX looks like HTML markup in JavaScript. However, under the hood, JSX is allowing developers to use HTML syntax to compose JavaScript components
 
-## '<input>, <select>, <textarea>' in React
+## input, select, textarea in React
 
 Check out the React docs for these HTML form elements. They have some good examples - https://reactjs.org/docs/forms.html
 
