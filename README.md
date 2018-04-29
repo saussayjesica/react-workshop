@@ -1,4 +1,5 @@
 # React Workshop for Node Girls
+This workshop is a code along format
 
 ## Prerequisites
 
