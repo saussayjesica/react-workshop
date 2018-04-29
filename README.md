@@ -1,44 +1,66 @@
-1.  Create react app
-2.  Delete all unecessary files
-3.  Replace app.css with https://gist.github.com/saussayjesica/cf1726fdaa6157b4d36b1011fb9528d3
-4.  Add background color to index.css
-5.  Delete code in App.js
-6.  create class, render, return, export default.... show JSX slide and mention JSX should be wrapped in an enclosing tag
+# React Workshop for Node Girls
 
-// LOCATION
+---
 
-6.  start adding the location code and hard code values
-7.  make location code a seperate component
-8.  show how props work - move hard coded values to props
-9.  show how state works - move hard coded values from props to state
+## Prerequisites
 
-// WEATHER
+> Node >= 6 installed on your machine
+> Have some HTML and CSS knowledge
+> Text editor installed such as VS Code, Atom or Sublime
+> Have some experience with the command line
 
-10. add code for weather and hard code values
-11. make weather code a seperate component
-12. show how props work - move hard coded values to props
-13. show how state works - move hard coded values from props to state
+## What is React?
 
-// SEARCHBAR
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 
-14. add searchbar code - don't add input (value & onChange) / button (onClick) props yet
-15. value prop is kept in state - reactjs.org forms
-16. make onChange function
-17. explain event.target - A reference to the object that dispatched the event
-18. console.log event.target and you will see value
-19. explain setState and add the value to state
+## What are we going to build?
 
-* have to set up fetch call before doing onClick for button
+A react weather app
 
-// FETCH
+## Before we start
 
-20. create .env files
-21. add openweathermap api key
-22. work through getWeather()
-23. set up onClick for button
-24. go through componentDidMount and remove all hard coded values in state
+Signup to a free account with OpenWeatherMap so you have an api key. We'll use this later to fetch the weather data. https://openweathermap.org/appid
 
-EXTRAS
-Move searchBar to another component
-Press enter on search bar and it searches
-When you click on search bar it selects all text
+## Let's get started!
+
+---
+
+#### Setup
+
+Go to https://github.com/facebook/create-react-app and run the three command lines shown in 'Quick Overview' (only run one line at a time).
+
+#### Add styling for the app
+
+Once you have your app running, replace the css in src/App.css with this https://gist.github.com/saussayjesica/cf1726fdaa6157b4d36b1011fb9528d3.
+
+#### Add custom font
+
+Go to public/index.html. Add the following `<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">`
+underneath the shortcut icon link element on line 13
+
+#### Add background color to the body
+
+Add the following to the body styling in index.css
+`background-color: #ece0fe;`
+
+---
+
+## What is JSX?
+
+JSX looks like HTML markup in JavaScript. However, under the hood, JSX is allowing developers to use HTML syntax to compose JavaScript components
+
+## <input>, <select>, <textarea> in React
+
+Check out the React docs for these HTML form elements. They have some good examples - https://reactjs.org/docs/forms.html
+
+## Props
+
+Most components can be customized with different parameters when they are created. These creation parameters are called props (properties)
+
+## State
+
+State is similar to props, but it is private and fully controlled by the component.
+
+> Don’t modify state directly e.g. this.state.city = ‘Sydney’
+> Use setState instead e.g this.setState({city: ‘Sydney})
+> You can only assign state in the constructor
