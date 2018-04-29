@@ -14,6 +14,7 @@ React is a declarative, efficient, and flexible JavaScript library for building 
 ## What are we going to build?
 
 A react weather app
+
 ![alt text](https://i.imgur.com/tteDZMy.png)
 
 ## Before we start
