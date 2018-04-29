@@ -1,13 +1,11 @@
 # React Workshop for Node Girls
 
----
-
 ## Prerequisites
 
-> Node >= 6 installed on your machine
-> Have some HTML and CSS knowledge
-> Text editor installed such as VS Code, Atom or Sublime
-> Have some experience with the command line
+* Node >= 6 installed on your machine
+* Have some HTML and CSS knowledge
+* Text editor installed such as VS Code, Atom or Sublime
+* Have some experience with the command line
 
 ## What is React?
 
@@ -22,8 +20,6 @@ A react weather app
 Signup to a free account with OpenWeatherMap so you have an api key. We'll use this later to fetch the weather data. https://openweathermap.org/appid
 
 ## Let's get started!
-
----
 
 #### Setup
 
@@ -49,7 +45,7 @@ Add the following to the body styling in index.css
 
 JSX looks like HTML markup in JavaScript. However, under the hood, JSX is allowing developers to use HTML syntax to compose JavaScript components
 
-## <input>, <select>, <textarea> in React
+## '<input>, <select>, <textarea>' in React
 
 Check out the React docs for these HTML form elements. They have some good examples - https://reactjs.org/docs/forms.html
 
@@ -61,6 +57,10 @@ Most components can be customized with different parameters when they are create
 
 State is similar to props, but it is private and fully controlled by the component.
 
-> Don’t modify state directly e.g. this.state.city = ‘Sydney’
-> Use setState instead e.g this.setState({city: ‘Sydney})
-> You can only assign state in the constructor
+* Don’t modify state directly e.g. this.state.city = ‘Sydney’
+* Use setState instead e.g this.setState({city: ‘Sydney})
+* You can only assign state in the constructor
+
+---
+
+> Mentor instructions are saved in mentor_instructions.md
