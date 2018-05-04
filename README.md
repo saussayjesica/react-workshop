@@ -1,4 +1,5 @@
 # React Workshop for Node Girls
+
 This workshop is a code along format
 
 ## Prerequisites
@@ -30,7 +31,7 @@ Go to https://github.com/facebook/create-react-app and run the three command lin
 
 #### Add styling for the app
 
-Once you have your app running, replace the css in src/App.css with this https://github.com/saussayjesica/react-workshop/blob/master/src/App.css
+Once you have your app running, replace the css in src/App.css with this https://gist.github.com/saussayjesica/cf1726fdaa6157b4d36b1011fb9528d3
 
 #### Add custom font
 
@@ -41,6 +42,11 @@ underneath the shortcut icon link element on line 13
 
 Add the following to the body styling in index.css
 `background-color: #ece0fe;`
+
+#### Add svg files
+
+Download the svg files from this link https://wetransfer.com/downloads/3691a58a2abf5f9ac80044b1a2c5015f20180504101204/20a7a347bf145f16460ce61dd666aab020180504101204/923885
+and save the files to the public folder
 
 ---
 

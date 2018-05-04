@@ -46,6 +46,9 @@
 
 EXTRAS - if there is time
 
-> Move searchBar to another component
-> Press enter on search bar and it searches
-> When you click on search bar it selects all text
+* Move searchBar to another component
+* Press enter on search bar and it searches
+* When you click on search bar it selects all text
+* Update fetch to async await
+* Convert class components to stateless components
+* Add repo to github
