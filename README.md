@@ -11,7 +11,7 @@ This workshop is a code along format
 
 ## What is React?
 
-React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+React is a Javascript library for building UI components
 
 ## What are we going to build?
 
@@ -49,6 +49,10 @@ Download the svg files from this link https://wetransfer.com/downloads/3691a58a2
 and save the files to the public folder
 
 ---
+
+## create-react-app
+
+Installs a bunch of packages which are needed to set up a convenient development environment including a web server, compiler and testing tools
 
 ## What is JSX?
 
